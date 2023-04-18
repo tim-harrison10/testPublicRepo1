@@ -3,4 +3,4 @@ language: ruby
 rvm:
   - 2.7
 script:
-  - ruby -e '15000.times { puts "testing job log limit..." }'
+  - ruby -e '100100.times { puts "testing job log limit..." }'
