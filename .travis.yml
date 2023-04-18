@@ -1,3 +1,6 @@
 os: linux
-script: sleep 5
-
+language: ruby
+rvm:
+  - 2.7
+script:
+  - 15000.times { puts "testing..." }
